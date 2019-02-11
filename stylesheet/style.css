@@ -1,0 +1,81 @@
+img {
+    border-radius: 8px;  /* Rounded border */
+    width: 400px; /* Set a small width */
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: #2b8ecc;
+    color: white; 
+}
+.header ul{
+    padding: 0px;
+    margin: 0px ;
+    list-style-type: none;
+    font-size: 0px;
+}
+.header ul li{
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: background-color 0.5s;
+}
+.header ul li:hover{
+    background-color: black;
+}
+.image-area {
+    background-image:url("../images/peter-nguyen-128482-unsplash.jpg");
+    background-color:black;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.centered-container{
+    max-width: 1020px;
+    margin: 0px auto;
+    padding: 0px 16px;
+}
+.image-text{
+    text-align: center;
+    background-color: rgb(240,240,240, .65);
+    color: #040f27;
+    font-size: 3rem;
+}
+.intro-text{
+    color: grey;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+.single-service{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.single-service p {
+    padding: 0px 16px;
+    
+}
+@media screen and (min-width: 700px){
+    .header ul{
+    text-align: center;
+    }
+    .header ul li{
+    display: inline-block;
+    border-bottom: 0px;
+    text-align: left;
+    }
+    .single-service {
+        width: 50%;
+        float: left;
+    }
+}
