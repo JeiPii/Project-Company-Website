@@ -29,6 +29,7 @@ body{
 }
 .header ul li:hover{
     background-color: black;
+    cursor: pointer;
 }
 .image-area {
     background-image:url("../images/peter-nguyen-128482-unsplash.jpg");
